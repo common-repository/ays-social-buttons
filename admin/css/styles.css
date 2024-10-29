@@ -1,0 +1,312 @@
+.fixed .column-title {
+	width: 30%;
+}
+
+.fixed .column-shortcode {
+	width: 25%;
+}
+
+.fixed .column-shortcode  input{
+	width: 100%;
+}
+
+.fixed .column-author {
+	width: 10%;
+}
+
+.fixed .column-sbdate {
+	width: 10%;
+}
+
+.fixed .column-id {
+	width: 6%;
+}
+
+table.adminlist
+{
+	width: 85% !important;
+	display:none;
+}
+table.adminlist td
+{
+	padding: 8px;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+
+div.button_types_section
+{
+	float:left;
+	background-color: rgb(255, 170, 113);
+	padding: 0px 0px 5px 5px;
+	height: 929px;
+	margin-right:5px;
+}
+ul.button_types_list
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.button_type
+{
+	background-color: rgb(116, 116, 116);
+	padding-right: 5px;
+	height: 40px;
+	margin-top: 5px;
+	padding-top: 17px;
+	padding-left: 10px;
+	cursor: pointer;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+td.col_key
+{
+	width:25%;
+}
+
+.title_table
+{
+	width:100%;
+	height: 70px;
+}
+
+.col_key_title
+{
+	width:11%;
+}
+
+.ays_radio
+{
+	margin:0 !important;
+}
+
+label.first_radio
+{
+	float: left;
+	margin-right: 20px;
+}
+
+#social_buttons_table
+{
+	border-collapse: separate;
+	border-spacing: 15px;
+	width:85%;
+	position: relative;
+	top: -15px;
+	margin-left: -5px;
+}
+
+td.button_area
+{
+	padding:0 !important;
+	border:none !important;
+	width: 190px;
+	cursor:move;
+	background-color: rgb(255, 170, 113);
+	height: 750px;
+	vertical-align:top;
+}
+
+.button_area  input, .button_area  select
+{
+	width: 100%;
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+
+.button_area  td.col_value
+{
+	border-top:none;
+}
+
+.button_area td.col_value input[type="radio"]
+{
+	width: inherit!important;
+}
+
+p.active_icon
+{
+	text-align:center;
+	padding-top: 4px;
+}
+
+p.active_icon img
+{
+	cursor:pointer;
+}
+
+.article_table
+{
+	width:100%;
+}
+
+div#social_buttons_assignment
+{
+	display:none;
+}
+
+ul#top_menu
+{
+	border-bottom:1px solid #ddd;
+	list-style-type: none;
+	height: 39px;
+	padding: 0;
+}
+
+ul#top_menu li
+{
+	float: left;
+	margin-right: 4px;
+	text-align: center;
+}
+
+ul#top_menu li span
+{
+	width: 100px;
+	height: 28px;
+	padding-top: 10px;
+	border-radius:4px 4px 0 0;
+	display:block;
+}
+
+li.ays_active span
+{
+	margin-bottom:-1px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+	cursor:default;
+}
+
+li.ays_inactive span
+{
+	color:#08c;
+	cursor:pointer;
+	background-color: white;
+	border-color: white white white;
+	border-width: 1px;
+	border-style: solid;
+	border-bottom-width:0px;
+}
+
+
+li.ays_inactive span:hover
+{
+	background-color: #eee;
+	border-color: #eee #eee #ddd;
+	border-width: 1px;
+	border-style: solid;
+} 
+
+#social_buttons_parameters
+{
+	margin-top: 30px;
+}
+
+td.col_key_ass
+{
+	width:15%;
+}
+
+select#article_type
+{
+	width:250px;
+}
+
+ul.article_selection_list
+{
+list-style-type:none;
+margin:0;
+}
+
+ul.article_selection_list li input[type="checkbox"]
+{
+	margin: 0 3px 0 1px;
+}
+
+.button_area table tr td.col_value textarea
+{
+	height: 100px;
+	width:90%;
+	resize: vertical;
+}
+
+td.col_value textarea
+{
+	height: 100px;
+	resize: vertical;
+}
+
+td.col_key_global
+{
+	border: none !important;
+	padding-left: 0 !important;
+	width:16%;
+}
+
+td.col_value_global
+{
+	border: none !important;
+}
+
+table.social_global_section
+{
+	width:100%;
+}
+
+td.col_value_global textarea
+{
+	height: 100px;
+}
+
+p.active_icon span
+{
+	display: inline-block;
+	width: 63px;
+	padding-top: 4px;
+	height: 21px;
+	cursor: pointer;
+}
+
+span.social_show_1
+{
+	background-color: green;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid green;
+	color: #fff;
+	margin-right: -1px;
+}
+
+span.social_show_0
+{
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid rgb(213, 213, 213);
+	color: #333;
+	background-color: rgb(213, 213, 213);
+	margin-right: -1px;
+}
+
+span.social_hide_1
+{
+	background-color: #bd362f;
+	margin-left: -3.5px;
+	border-radius: 0px 5px 5px 0px;
+	border: 1px solid #bd362f;
+	color: #fff;
+}
+
+span.social_hide_0
+{
+	background-color: rgb(213, 213, 213);
+	margin-left: -3.5px;
+	border-radius: 0px 5px 5px 0px;
+	border: 1px solid rgb(213, 213, 213);
+	color: #333;
+}
